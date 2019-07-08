@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Purchasing</title>
+    <link rel="stylesheet" href="Css/Schoolp.css">
+    <title>Computer Maintenance</title>
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.css">
+    <script src="bootstrap4/js/jquery-3.4.0.js"></script>
+    <script src="bootstrap4/js/popper.min.js"></script>
+    <script src="bootstrap4/js/bootstrap.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#"><img src="Images/Jaxstar%202.png" alt="logo" width="100" height="60"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="School%20Project.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Product and Services
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="Computers%20and%20Computer%20accessories.html">Computers and Computer accessories</a>
+                    <a class="dropdown-item" href="Computer%20Maintenance.html">Computer Maintenance</a>
+                    <a class="dropdown-item" href="Computer%20Networking.html">Computer Networking</a>
+                    <a class="dropdown-item" href="Graphic%20Design.html">Graphic Design</a>
+                    <a class="dropdown-item" href="Software%20Development.html">Software Development</a>
+                </div>
+            </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Help.html">Help</a>
+            </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+        </ul>
+        <form class="form-inline" action="https://www.google.com">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            &nbsp;
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+        <div/>
+
+        <!-- Links -->
+
+</nav>
+<h1></h1>
+<form action="" method="post">
+    <label for="">Id Number : </label>
+    <input type="number" name="idno" required>
+    <label for="">First Name :</label>
+    <input type="text" name="fname" required>
+    <label for="">Last Name :</label>
+    <input type="text" name="lname" required>
+    <label for="">Potal Code :</label>
+    <input type="number" name="Pcode" required>
+    <label for="">ZIP :</label>
+    <input type="number" name="ZIP" required >
+    <br>
+    <label for="">Street Name :</label>
+    <input type="text" name="Street Name" required>
+    <hr>
+    <label for="">Date Of Birth</label>
+    <input type="date" name="birthdate" required>
+    <label for="">Gender</label>
+    <input type="radio" name="gender" value="male">male
+    &nbsp;
+    <input type="radio" name="gender" value="Female">Female
+    &nbsp;&nbsp;
+    <label for="">Mode of Payment :</label>
+    <select name="mstatus" id="mstatus" required>
+        <option value="">select Pmode</option>
+        <option value="Single">Cash on Delivery</option>
+        <option value="Married">Visa</option>
+        <option value="Divorced">M-Pesa</option>
+        <option value="Windowed">Cheque</option>
+        <option value="Seperated">Pay-Pal</option>
+    </select>
+    <hr>
+    <h3>Select Country</h3>
+    <input type="radio" name="hobby" value="Reading">Kenya <br>
+    <input type="radio" name="hobby" value="Travelling">Uganda <br>
+    <input type="radio" name="hobby" value="Swimming">Sudan <br>
+    <input type="radio" name="hobby" value="Coding">South Sudan<br>
+    <input type="radio" name="hobby" value="Socializing">Somalia <br>
+    <input type="radio" name="hobby" value="Other">Tanzania
+    <br>
+    <br>
+    <h3>Comments</h3>
+    <textarea name="comments" id="comments" cols="100" rows="20"></textarea>
+    <hr>
+    <p class="buttons"><input type="submit" name="submit" value="Submit">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="reset" name="reset" value="Clear">
+    </p>
+</form>
+<div class="footer">
+    Copyright &copy;2019
+</div>
+</body>
+</html>
